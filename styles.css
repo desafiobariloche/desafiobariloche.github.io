@@ -1,0 +1,172 @@
+/* page*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-container {
+    padding: 80px;
+}
+
+/* top bar */
+
+.top-bar {
+    background-color: #0F1E33;
+    
+}
+
+.top-bar > p {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/* navbar */
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.donate-button-lg {
+    background-color: rgb(255, 209, 56);
+    color: #0F1E33;
+    border-radius: 25px;
+    padding: 5px 25px;
+    border: none;
+}
+
+.donate-button-lg:hover {
+    background-color: #0F1E33;
+    color: white;
+}
+
+.donate-sm {
+    display: none;
+}
+
+/* text */
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #19427D;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* spacing */ 
+
+.spacing {
+    margin-bottom: 100px;
+}
+
+.spacing-sm {
+    margin-bottom: 40px;
+}
+
+hr {
+    border-radius: 50px;
+}
+
+/* social */ 
+
+.social {
+    margin-right: 20px;
+}
+
+.social:hover {
+    opacity: .75;
+}
+
+
+.contact-div {
+    background-color: #19427D;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+   
+    /* page */
+
+    .page-container {
+        padding: 40px;
+    }
+
+    
+    /* text */
+
+    .title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+
+    /* navbar */
+
+    .nav-item {
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    .donate-lg {
+        display: none;
+    }
+
+    .donate-sm {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .donate-button-sm {
+        text-align: center;
+        width: 100%;
+        background-color: rgb(255, 209, 56);
+        color: #0F1E33;
+        border-radius: 25px;
+        padding: 5px 25px;
+        border: none;
+        text-decoration: none;
+    }
+
+    /* social  */
+
+    .social-div {
+        text-align: center;
+    }
+
+    #fb {
+        margin-right: 0px;
+    }
+
+}
+
