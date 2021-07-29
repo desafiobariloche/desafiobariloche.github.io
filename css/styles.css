@@ -8,24 +8,6 @@
     padding: 80px;
 }
 
-/* top bar */
-
-.top-bar {
-    background-color: #0F1E33;
-    
-}
-
-.top-bar > p {
-    color: white;
-    font-size: 13px;
-    padding: 5px;
-    margin-left: 30px;
-    margin-top: 15px;
-    text-align: left;
-    display: inline-block;
-}
-
-
 /* navbar */
 
 .navbar-light .navbar-toggler {
@@ -49,8 +31,7 @@
 }
 
 .donate-button-lg:hover {
-    background-color: #0F1E33;
-    color: white;
+    opacity: .75;
 }
 
 .donate-sm {
@@ -73,11 +54,13 @@ p {
     font-size: 16px;
 }
 
-#contact-text {
-    font-size: 15px;
-    font-weight: 600;
+.more {
     color: #0F1E33;
-    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.more:hover {
+    opacity: .75;
 }
 
 /* spacing */ 
@@ -90,10 +73,6 @@ p {
     margin-bottom: 40px;
 }
 
-hr {
-    border-radius: 50px;
-}
-
 /* social */ 
 
 .social {
@@ -104,19 +83,30 @@ hr {
     opacity: .75;
 }
 
-#contact-ico {
-    margin-right: 15px;
-}
-
 #social {
     text-align: right;
+}
+
+/* contact */ 
+
+.contact-ico {
+    margin-right: 15px;
 }
 
 .contact-br {
     display: none;
 }
 
-/* register */
+.contact-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0F1E33;
+    margin-bottom: 20px;
+}
+
+.contact-text:hover {
+    opacity: .75;
+}
 
 .register-button {
     background-color: #0F1E33;
@@ -126,10 +116,22 @@ hr {
     border: none;
 }
 
+.register-button:hover {
+   opacity: .75;
+}
+
 .register-sm {
     display: none;
 }
 
+/* image */
+
+#img {
+    border-radius: 7px;
+}
+
+
+/* RESPONSIVE */
 
 @media only screen and (max-width: 991px) {
    
@@ -204,28 +206,14 @@ hr {
         margin-bottom: 30px;
     }
 
-    /* register */
-
-    .register-lg {
-        display: none;
-    }
-
-    .register-sm {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-        padding: 10px;
-    }
-
-
+    /* contact */
 
     .col-md-4 {
         text-align: center;
         margin-bottom: 25px;
     }
 
-    #contact-text {
+    .contact-text {
         font-size: 15px;
         font-weight: 400;
         color: #0F1E33;
@@ -240,10 +228,22 @@ hr {
         display: block;
     }
 
-    #contact-ico {
+    .contact-ico {
         margin-right: 0px;
     }
 
-    
+    .register-lg {
+        display: none;
+    }
+
+    .register-sm {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+ 
 }
 
